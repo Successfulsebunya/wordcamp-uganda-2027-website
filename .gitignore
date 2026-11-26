@@ -1,0 +1,6 @@
+.DS_Store
+Thumbs.db
+*.log
+# Never commit private event data
+attendees*.csv
+*.pdf
