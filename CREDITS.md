@@ -4,9 +4,9 @@
 
 - **Moses Ssebuwufu** ([@ssebuwufumoses](https://github.com/ssebuwufumoses)): design and build
 
-## Pattern design
+## Pattern artwork
 
-- **Kasirye Arthur** ([@kasiryelabs](https://github.com/kasiryelabs)) designed the official WordCamp Uganda pattern used across the site and on the social share image.
+- **Kasirye Arthur** ([@kasiryelabs](https://github.com/kasiryelabs)) designed the official WordCamp Uganda pattern artwork: the graphic design used in the bands across the site and on the social share images. This is artwork, not a WordPress block pattern.
 
 ## Reviewed by the organising team
 

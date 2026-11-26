@@ -9,7 +9,7 @@ The target is **WCAG 2.2 AA**.
 - **Keyboard:** menus, the search toggle, FAQ items and organiser drawers all work with the keyboard. Drawers use `details`/`summary`, which browsers make keyboard-accessible.
 - **Touch targets:** ticket form controls are 48px tall.
 - **Reduced motion:** all decorative animation is off under `prefers-reduced-motion: reduce`.
-- **Decorative art:** stamps, confetti, the pattern band and icons are decorative and hidden from assistive tech.
+- **Decorative art:** stamps, confetti, the pattern artwork band and icons are decorative and hidden from assistive tech.
 
 ## Small screens
 

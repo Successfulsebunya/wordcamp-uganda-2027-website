@@ -32,7 +32,7 @@ The footer only lists the pages people look for at the end of a page. Everything
 | --- | --- | --- |
 | Home | `/` | Front Page template |
 | About WordCamp Uganda | `/about/` | |
-| Organizers | `/organizers/` | `page-no-title` template, organiser grid pattern |
+| Organizers | `/organizers/` | `page-no-title` template, Organizers dynamic grid (synced pattern) |
 | FAQ | `/faq/` | |
 | Contact | `/contact/` | Jetpack form |
 | Code of Conduct | `/code-of-conduct/` | |
@@ -68,7 +68,7 @@ The four open calls are posts using the **Post — Full-width landing** template
 | Template | File | Used for |
 | --- | --- | --- |
 | Front Page | `front-page.html` | Home page |
-| Pages | `page.html` | Default page, with page hero and pattern band |
+| Pages | `page.html` | Default page, with page hero and the pattern artwork band |
 | Single Posts | `single.html` | News posts |
 | Post — Full-width landing | `single-landing.html` | Open calls |
 | Blog Home | `home.html` | `/blog/` |

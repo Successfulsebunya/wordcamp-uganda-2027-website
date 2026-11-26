@@ -24,7 +24,7 @@ The files in `src/` are exports. The live site is the source of truth: changes a
 ## Documentation
 
 1. [Platform and limits](docs/platform-limits.md): what WordCamp.org allows and what it doesn't
-2. [Design system](docs/design-system.md): colours, type, spacing, pattern and components
+2. [Design system](docs/design-system.md): colours, type, spacing, pattern artwork and components
 3. [Site structure](docs/site-structure.md): pages, menu, footer and templates
 4. [Components](docs/components.md): the reusable building blocks and their class names
 5. [Tickets](docs/tickets.md): CampTix setup and ticket page
@@ -41,7 +41,7 @@ The files in `src/` are exports. The live site is the source of truth: changes a
 
 ## Credits
 
-The official WordCamp Uganda pattern was designed by Kasirye Arthur. The organising team reviewed the site and suggested improvements. See [CREDITS.md](CREDITS.md).
+The official WordCamp Uganda pattern artwork (the graphic design, not a block pattern) was designed by Kasirye Arthur. The organising team reviewed the site and suggested improvements. See [CREDITS.md](CREDITS.md).
 
 ## Licence
 
