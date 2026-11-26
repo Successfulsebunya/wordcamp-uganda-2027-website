@@ -88,4 +88,3 @@ In order: Hero → Pattern edge → Voices → The two days → Get involved →
 | --- | --- |
 | Meetup communities route | Front Page template |
 | Organizers dynamic grid | Organizers page, Single Organizer template |
-| Our Partners | Not in use. The home page sponsor logos are now built directly in the Front Page template (`wcu-sponsor-logos`) |
