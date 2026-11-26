@@ -51,3 +51,4 @@ CampTix outputs its own markup, so this is the one place the site needs real CSS
 - Space between the table header and the first ticket.
 - Under 768px the table becomes a single column so nothing is cut off. Under 360px the quantity stacks under the price.
 - Visible focus outlines on every control.
+- The coupon button uses `font-family: inherit`, so it follows the body font set in Global Styles.
