@@ -73,3 +73,8 @@ Animations respect `prefers-reduced-motion`. Decorative motion (button shine, co
 ## Known exceptions
 
 - **`!important`:** three declarations remain, all on news cards with a photo. WordPress preset text colour classes use `!important` themselves, so they can only be overridden the same way.
+- **Fonts in CSS:** fonts are set in Global Styles. The CSS only names a font where there is no Site Editor setting for it, and always through the Global Styles font variables, never a font name:
+  - Anton on the CampTix price cell and on numbered travel steps.
+  - Manrope on three small labels that sit inside an Anton element and would otherwise inherit Anton: the ticket table labels on phones, the stop numbers on the About page and the table numbers on Contributor Day.
+  - Everything else in plugin output (Jetpack forms, CampTix) uses `font-family: inherit`, so it follows the body font from Global Styles.
+- **Colours in CSS:** colours from the palette are written as palette variables (`var(--wp--preset--color--ink)` and so on), so changing the palette in Global Styles updates them too. Hex values that remain are shades that aren't in the palette, such as overlay tints.
