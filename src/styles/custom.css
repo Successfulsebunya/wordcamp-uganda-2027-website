@@ -1,4 +1,4 @@
-/* WordCamp Uganda 2027 — minimal scoped CSS (no !important). Everything else lives in block settings. */
+/* WordCamp Uganda 2027: minimal scoped CSS. Everything else lives in block settings. The only !important rules are on news cards with a photo, to override WordPress preset text colour classes. */
 .wcu-hero-meta figure.wp-block-image{margin:0;line-height:0}
 .wcu-hero-meta figure.wp-block-image img{display:block}
 .wcu-sponsor-logos figure.wp-block-image{margin:0}

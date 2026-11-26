@@ -73,4 +73,3 @@ Animations respect `prefers-reduced-motion`. Decorative motion (button shine, co
 ## Known exceptions
 
 - **`!important`:** three declarations remain, all on news cards with a photo. WordPress preset text colour classes use `!important` themselves, so they can only be overridden the same way.
-- **Inter:** a few rules reference `--wp--preset--font-family--inter`, but Inter isn't registered in Global Styles, so the browser falls back to the next font in the stack. These should either register Inter or switch to Manrope.
