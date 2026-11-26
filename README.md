@@ -17,6 +17,7 @@ I built the site on the official WordCamp.org platform with the WordPress block 
 | [`src/navigation/`](src/navigation/) | Main menu (Navigation block) |
 | [`src/styles/global-styles.json`](src/styles/global-styles.json) | Global Styles: palette, fonts, element and block styles |
 | [`src/styles/custom.css`](src/styles/custom.css) | Additional CSS from Global Styles, labelled by section |
+| [`package.json`](package.json), [`.stylelintrc.json`](.stylelintrc.json) | CSS checks with the official WordPress stylelint config (`npm run lint:css`) |
 
 The files in `src/` are exports. The live site is the source of truth: changes are made in the Site Editor, then exported here.
 
@@ -40,7 +41,7 @@ The files in `src/` are exports. The live site is the source of truth: changes a
 
 ## Credits
 
-The organising team reviewed the site and suggested improvements. See [CREDITS.md](CREDITS.md).
+The official WordCamp Uganda pattern was designed by Kasirye Arthur. The organising team reviewed the site and suggested improvements. See [CREDITS.md](CREDITS.md).
 
 ## Licence
 
