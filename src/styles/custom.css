@@ -5,7 +5,7 @@
 
 .wcu-sponsor-logos figure.wp-block-image{margin:0}
 
-.wp-block-jetpack-subscriptions input[type="email"]{background:#17181c;color:#fff;border:1px solid var(--wp--preset--color--accent)}
+.wp-block-jetpack-subscriptions input[type="email"]{background:#17181c;color:var(--wp--preset--color--white);border:1px solid var(--wp--preset--color--accent)}
 
 .wp-block-jetpack-subscriptions input[type="email"]::placeholder{color:#a8a8a8;opacity:1}
 
@@ -927,7 +927,7 @@ body #tix-attendees .avatar{position:relative;z-index:1}
 
 .wcu-sponsor-grid .wordcamp-sponsors__logo{display:flex;align-items:center;justify-content:center;margin:0}
 
-.wcu-sponsor-grid .wordcamp-sponsors__title{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.wcu-sponsor-grid .wordcamp-sponsors__title{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip-path:inset(50%);white-space:nowrap;border:0}
 
 .wcu-sponsor-grid .wordcamp-sponsor:focus-within{outline:3px solid var(--wp--preset--color--ink);outline-offset:4px}
 
@@ -1362,9 +1362,9 @@ a.wcu-yr:hover,a.wcu-yr:focus-visible{background:var(--wp--preset--color--ink);b
 
 .wcu-stop.is-destination .wcu-stop-year::before,.wcu-stop.is-destination .wcu-stop-year::after{content:"";position:absolute;inset:-58px -96px;pointer-events:none;z-index:-1}
 
-.wcu-stop.is-destination .wcu-stop-year::before{background:radial-gradient(circle at 4% 30%,#FCDD00 0 4px,transparent 4.6px),radial-gradient(circle at 12% 78%,#DE0000 0 3.5px,transparent 4.1px),radial-gradient(circle at 22% 8%,#FFF 0 3px,transparent 3.6px),radial-gradient(circle at 30% 92%,#FCDD00 0 3px,transparent 3.6px),radial-gradient(circle at 70% 6%,#DE0000 0 3.5px,transparent 4.1px),radial-gradient(circle at 80% 88%,#FFF 0 3px,transparent 3.6px),radial-gradient(circle at 90% 22%,#FCDD00 0 3.5px,transparent 4.1px),radial-gradient(circle at 97% 64%,#DE0000 0 4px,transparent 4.6px),radial-gradient(circle at 48% 2%,#FCDD00 0 2.5px,transparent 3.1px),radial-gradient(circle at 52% 98%,#DE0000 0 2.5px,transparent 3.1px)}
+.wcu-stop.is-destination .wcu-stop-year::before{background:radial-gradient(circle at 4% 30%,var(--wp--preset--color--accent) 0 4px,transparent 4.6px),radial-gradient(circle at 12% 78%,var(--wp--preset--color--uganda-red) 0 3.5px,transparent 4.1px),radial-gradient(circle at 22% 8%,var(--wp--preset--color--white) 0 3px,transparent 3.6px),radial-gradient(circle at 30% 92%,var(--wp--preset--color--accent) 0 3px,transparent 3.6px),radial-gradient(circle at 70% 6%,var(--wp--preset--color--uganda-red) 0 3.5px,transparent 4.1px),radial-gradient(circle at 80% 88%,var(--wp--preset--color--white) 0 3px,transparent 3.6px),radial-gradient(circle at 90% 22%,var(--wp--preset--color--accent) 0 3.5px,transparent 4.1px),radial-gradient(circle at 97% 64%,var(--wp--preset--color--uganda-red) 0 4px,transparent 4.6px),radial-gradient(circle at 48% 2%,var(--wp--preset--color--accent) 0 2.5px,transparent 3.1px),radial-gradient(circle at 52% 98%,var(--wp--preset--color--uganda-red) 0 2.5px,transparent 3.1px)}
 
-.wcu-stop.is-destination .wcu-stop-year::after{background:radial-gradient(circle at 2% 62%,#DE0000 0 3px,transparent 3.6px),radial-gradient(circle at 16% 14%,#FCDD00 0 3.5px,transparent 4.1px),radial-gradient(circle at 26% 60%,#FFF 0 2.5px,transparent 3.1px),radial-gradient(circle at 38% 96%,#DE0000 0 3px,transparent 3.6px),radial-gradient(circle at 62% 4%,#FFF 0 3px,transparent 3.6px),radial-gradient(circle at 74% 96%,#FCDD00 0 3.5px,transparent 4.1px),radial-gradient(circle at 86% 10%,#DE0000 0 3px,transparent 3.6px),radial-gradient(circle at 96% 40%,#FFF 0 3px,transparent 3.6px),radial-gradient(circle at 8% 98%,#FCDD00 0 2.5px,transparent 3.1px),radial-gradient(circle at 92% 94%,#FCDD00 0 2.5px,transparent 3.1px)}
+.wcu-stop.is-destination .wcu-stop-year::after{background:radial-gradient(circle at 2% 62%,var(--wp--preset--color--uganda-red) 0 3px,transparent 3.6px),radial-gradient(circle at 16% 14%,var(--wp--preset--color--accent) 0 3.5px,transparent 4.1px),radial-gradient(circle at 26% 60%,var(--wp--preset--color--white) 0 2.5px,transparent 3.1px),radial-gradient(circle at 38% 96%,var(--wp--preset--color--uganda-red) 0 3px,transparent 3.6px),radial-gradient(circle at 62% 4%,var(--wp--preset--color--white) 0 3px,transparent 3.6px),radial-gradient(circle at 74% 96%,var(--wp--preset--color--accent) 0 3.5px,transparent 4.1px),radial-gradient(circle at 86% 10%,var(--wp--preset--color--uganda-red) 0 3px,transparent 3.6px),radial-gradient(circle at 96% 40%,var(--wp--preset--color--white) 0 3px,transparent 3.6px),radial-gradient(circle at 8% 98%,var(--wp--preset--color--accent) 0 2.5px,transparent 3.1px),radial-gradient(circle at 92% 94%,var(--wp--preset--color--accent) 0 2.5px,transparent 3.1px)}
 
 @media (prefers-reduced-motion:no-preference){
 
@@ -1476,7 +1476,7 @@ a.wcu-yr:hover,a.wcu-yr:focus-visible{background:var(--wp--preset--color--ink);b
 
 .wcu-uniq-tile::before{content:"";position:absolute;top:12px;left:50%;width:12px;height:12px;margin-left:-6px;border-radius:50%;background:var(--wp--preset--color--ink);box-shadow:0 0 0 3px #d6d8dd,inset 0 2px 3px rgba(0,0,0,.6);z-index:2}
 
-.wcu-uniq-tile::after{content:"";position:absolute;top:-24px;left:50%;width:30px;height:42px;margin-left:-15px;border-radius:50%;border:3px solid #c9cbd0;box-shadow:inset 0 1px 0 rgba(255,255,255,.6);z-index:1;pointer-events:none}
+.wcu-uniq-tile::after{content:"";position:absolute;top:-24px;left:50%;width:30px;height:42px;margin-left:-15px;border-radius:50%;border:3px solid var(--wp--preset--color--muted);box-shadow:inset 0 1px 0 rgba(255,255,255,.6);z-index:1;pointer-events:none}
 
 .wcu-uniq-link{margin-top:auto}
 
@@ -1490,7 +1490,7 @@ a.wcu-yr:hover,a.wcu-yr:focus-visible{background:var(--wp--preset--color--ink);b
 
 @media (min-width:1100px){
 
-.wcu-uniq-grid::before{content:"";position:absolute;top:8px;left:-12px;right:-12px;height:6px;border-radius:6px;background:linear-gradient(#e4e6ea,#8a8c92);box-shadow:0 2px 6px rgba(0,0,0,.5)}
+.wcu-uniq-grid::before{content:"";position:absolute;top:8px;left:-12px;right:-12px;height:6px;border-radius:6px;background:linear-gradient(#e4e6ea,var(--wp--preset--color--faint));box-shadow:0 2px 6px rgba(0,0,0,.5)}
 
 
 }
@@ -1521,7 +1521,7 @@ a.wcu-yr:hover,a.wcu-yr:focus-visible{background:var(--wp--preset--color--ink);b
 
 .wcu-stamp .wcu-stamp-photo{position:absolute;top:30px;right:30px;width:140px;height:140px;margin:0;transform:rotate(-6deg)}
 
-.wcu-stamp .wcu-stamp-photo img{width:100%;height:100%;object-fit:cover;border-radius:50%;border:5px solid #fff;outline:2px dashed rgba(10,11,13,.28);outline-offset:6px;box-shadow:0 12px 28px rgba(10,11,13,.16)}
+.wcu-stamp .wcu-stamp-photo img{width:100%;height:100%;object-fit:cover;border-radius:50%;border:5px solid var(--wp--preset--color--white);outline:2px dashed rgba(10,11,13,.28);outline-offset:6px;box-shadow:0 12px 28px rgba(10,11,13,.16)}
 
 .wcu-stamp.is-day-2 .wcu-stamp-photo{transform:rotate(6deg)}
 
@@ -1649,7 +1649,7 @@ a.wcu-yr:hover,a.wcu-yr:focus-visible{background:var(--wp--preset--color--ink);b
 
 .wcu-news .wcu-news-card>.wcu-news-photo img{width:100%;height:100%;object-fit:cover}
 
-.wcu-news li.has-post-thumbnail .wcu-news-card :is(h3,h3 a,.wp-block-read-more){color:#fff!important}
+.wcu-news li.has-post-thumbnail .wcu-news-card :is(h3,h3 a,.wp-block-read-more){color:var(--wp--preset--color--white)!important}
 
 .wcu-news li.has-post-thumbnail .wcu-news-card :is(.wp-block-post-date,.wp-block-post-excerpt){color:#E4E4DF!important}
 
@@ -2195,11 +2195,11 @@ body:has(.wcu-org-pop[open]){overflow:hidden}
 
 #tix #tix-coupon-container::before{content:"Coupon code";display:block;margin-bottom:8px;color:var(--wp--preset--color--muted-dark);font-size:.72rem;font-weight:800;letter-spacing:1.2px;text-transform:uppercase}
 
-#tix .tix-row-coupon #tix-coupon-input{display:inline-block;vertical-align:middle;width:260px;max-width:100%;min-height:48px;margin:0 8px 0 0;padding:10px 16px;border:1.5px solid var(--wp--preset--color--ink);border-radius:10px;background:#fff;font-size:16px;letter-spacing:.5px;text-transform:uppercase}
+#tix .tix-row-coupon #tix-coupon-input{display:inline-block;vertical-align:middle;width:260px;max-width:100%;min-height:48px;margin:0 8px 0 0;padding:10px 16px;border:1.5px solid var(--wp--preset--color--ink);border-radius:10px;background:var(--wp--preset--color--white);font-size:16px;letter-spacing:.5px;text-transform:uppercase}
 
-#tix .tix-row-coupon input[name="tix_coupon_submit"]{display:inline-block;vertical-align:middle;min-height:48px;margin:0;padding:0 22px;border:0;border-radius:10px;background:var(--wp--preset--color--ink);color:#fff;font-family:inherit;font-size:13px;font-weight:700;letter-spacing:.6px;text-transform:uppercase;cursor:pointer}
+#tix .tix-row-coupon input[name="tix_coupon_submit"]{display:inline-block;vertical-align:middle;min-height:48px;margin:0;padding:0 22px;border:0;border-radius:10px;background:var(--wp--preset--color--ink);color:var(--wp--preset--color--white);font-family:inherit;font-size:13px;font-weight:700;letter-spacing:.6px;text-transform:uppercase;cursor:pointer}
 
-#tix .tix-row-coupon input[name="tix_coupon_submit"]:hover{background:#2A2B30}
+#tix .tix-row-coupon input[name="tix_coupon_submit"]:hover{background:var(--wp--preset--color--line)}
 
 /* Small screens */
 @media (max-width:768px){
@@ -2270,7 +2270,7 @@ body:has(.wcu-org-pop[open]){overflow:hidden}
 .wcu-header-search .wp-block-search__button:focus-visible{outline:3px solid var(--wp--preset--color--ink);outline-offset:2px}
 
 /* Open state: one bar, input inside, solid button on the right */
-.wcu-header-search:not(.wp-block-search__searchfield-hidden) .wp-block-search__inside-wrapper{position:absolute;top:50%;right:0;z-index:20;box-sizing:border-box;gap:4px;width:min(340px, 70vw);max-width:none;padding:4px 4px 4px 16px;border:1.5px solid var(--wp--preset--color--ink);border-radius:12px;background:#fff;box-shadow:0 6px 24px rgba(10,11,13,.18);transform:translateY(-50%)}
+.wcu-header-search:not(.wp-block-search__searchfield-hidden) .wp-block-search__inside-wrapper{position:absolute;top:50%;right:0;z-index:20;box-sizing:border-box;gap:4px;width:min(340px, 70vw);max-width:none;padding:4px 4px 4px 16px;border:1.5px solid var(--wp--preset--color--ink);border-radius:12px;background:var(--wp--preset--color--white);box-shadow:0 6px 24px rgba(10,11,13,.18);transform:translateY(-50%)}
 
 .wcu-header-search:not(.wp-block-search__searchfield-hidden) .wp-block-search__inside-wrapper:focus-within{outline:3px solid var(--wp--preset--color--ink);outline-offset:2px}
 
@@ -2278,9 +2278,9 @@ body:has(.wcu-org-pop[open]){overflow:hidden}
 
 .wcu-header-search:not(.wp-block-search__searchfield-hidden) .wp-block-search__input:focus{outline:0}
 
-.wcu-header-search:not(.wp-block-search__searchfield-hidden) .wp-block-search__button{flex-basis:40px;width:40px;height:40px;border-radius:8px;background:var(--wp--preset--color--ink);color:#fff}
+.wcu-header-search:not(.wp-block-search__searchfield-hidden) .wp-block-search__button{flex-basis:40px;width:40px;height:40px;border-radius:8px;background:var(--wp--preset--color--ink);color:var(--wp--preset--color--white)}
 
-.wcu-header-search:not(.wp-block-search__searchfield-hidden) .wp-block-search__button:hover{background:#2A2B30}
+.wcu-header-search:not(.wp-block-search__searchfield-hidden) .wp-block-search__button:hover{background:var(--wp--preset--color--line)}
 
 /* Desktop: while search is open, the menu steps aside and the bar takes its place */
 @media (min-width:600px){
