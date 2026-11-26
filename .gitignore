@@ -4,3 +4,5 @@ Thumbs.db
 # Never commit private event data
 attendees*.csv
 *.pdf
+node_modules/
+package-lock.json
