@@ -4,15 +4,19 @@
 
 - **Moses Ssebuwufu** ([@ssebuwufumoses](https://github.com/ssebuwufumoses)): design and build
 
+## Pattern design
+
+- **Kasirye Arthur** ([@kasiryelabs](https://github.com/kasiryelabs)) designed the official WordCamp Uganda pattern used across the site and on the social share image.
+
 ## Reviewed by the organising team
 
 The WordCamp Uganda 2027 organising team reviewed the site and suggested improvements throughout the build.
 
 - Stephen Dumba
-- Kasirye Arthur
+- Kasirye Arthur ([@kasiryelabs](https://github.com/kasiryelabs))
 - Joan Logose
-- Sheba Ayinzabyonna
-- Moses Cursor Ssebunya
+- Sheba Ayinzabyonna ([@Sheba-Ayinzabyonna](https://github.com/Sheba-Ayinzabyonna))
+- Moses Cursor Ssebunya ([@Successfulsebunya](https://github.com/Successfulsebunya))
 
 ## Thanks
 

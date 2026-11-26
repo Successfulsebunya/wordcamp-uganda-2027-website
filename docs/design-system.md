@@ -41,7 +41,7 @@ Anton is a tall condensed display face. It's used in capitals for headings and s
 
 ## The pattern
 
-The official WordCamp Uganda pattern runs as a thin band in three places:
+The official WordCamp Uganda pattern, designed by Kasirye Arthur, runs as a thin band in three places:
 
 - under the home page hero ("Pattern edge (hero)")
 - under the page hero on every inner template ("Pattern edge (page hero)")
