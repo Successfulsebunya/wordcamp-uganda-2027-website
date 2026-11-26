@@ -32,7 +32,7 @@ Rules of thumb:
 | Role | Font | Where it's set |
 | --- | --- | --- |
 | Headings H1, H2 | **Anton** (custom font, weight 400) | Global Styles → Typography → Elements |
-| Main menu | Anton | Additional CSS (navigation section) |
+| Main menu | Anton | Block settings: Navigation block in the header template part |
 | Body text | **Manrope** (theme font, variable 200–800) | Theme default |
 | Buttons | Manrope | Global Styles → Blocks → Button |
 | Code | Fira Code (theme font) | Theme default |

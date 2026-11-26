@@ -23,7 +23,7 @@ WordCamp sites run on the shared WordCamp.org network. Organisers get a site, no
 ## Working rules I follow
 
 1. If a block setting can do it, use the block setting, not CSS.
-2. Fonts are set only in Global Styles.
+2. Fonts are set in Global Styles or block settings, never as font names in CSS. The few places where the CSS has to point to a font are listed in [design-system.md](design-system.md#known-exceptions).
 3. CSS stays scoped to `wcu-` class names added in the block's **Additional CSS class(es)** field, with low specificity so block panel edits still win.
 4. Avoid `!important`. The few that remain are documented in [design-system.md](design-system.md#known-exceptions).
 5. After every change to Global Styles, check that the rest of the styles are unchanged (see [maintaining.md](maintaining.md)).
