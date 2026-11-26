@@ -9,10 +9,10 @@
 The WordCamp Uganda 2027 organising team reviewed the site and suggested improvements throughout the build.
 
 - Stephen Dumba
-- Kasirye Arthur
+- Kasirye Arthur ([@kasiryelabs](https://github.com/kasiryelabs))
 - Joan Logose
-- Sheba Ayinzabyonna
-- Moses Cursor Ssebunya
+- Sheba Ayinzabyonna ([@Sheba-Ayinzabyonna](https://github.com/Sheba-Ayinzabyonna))
+- Moses Cursor Ssebunya ([@Successfulsebunya](https://github.com/Successfulsebunya))
 
 ## Thanks
 
