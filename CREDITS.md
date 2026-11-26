@@ -18,6 +18,10 @@ The WordCamp Uganda 2027 organising team reviewed the site and suggested improve
 - Sheba Ayinzabyonna ([@Sheba-Ayinzabyonna](https://github.com/Sheba-Ayinzabyonna))
 - Moses Cursor Ssebunya ([@Successfulsebunya](https://github.com/Successfulsebunya))
 
+## Contributors
+
+- Nalwoga Cerinah Kasirye: ticket pricing review
+
 ## Thanks
 
 - The [WordPress community](https://wordpress.org/) and [WordCamp Central](https://central.wordcamp.org/) for the platform.
