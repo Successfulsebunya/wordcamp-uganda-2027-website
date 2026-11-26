@@ -2204,7 +2204,7 @@ body:has(.wcu-org-pop[open]){overflow:hidden}
 /* Small screens */
 @media (max-width:768px){
 
-#tix .tix-tickets-list tbody tr:not(.tix-row-coupon){grid-template-columns:1fr 1fr auto}
+#tix .tix-tickets-list tbody tr:not(.tix-row-coupon){grid-template-columns:1fr 1fr auto;align-items:start}
 
 #tix .tix-tickets-list .tix-column-quantity{text-align:left}
 
@@ -2217,8 +2217,6 @@ body:has(.wcu-org-pop[open]){overflow:hidden}
 #tix .tix-row-coupon #tix-coupon-input{display:block;width:100%;margin:0 0 10px}
 
 #tix .tix-row-coupon input[name="tix_coupon_submit"]{display:block;width:100%}
-
-#tix .tix-tickets-list tbody tr:not(.tix-row-coupon){align-items:start}
 
 #tix .tix-tickets-list tbody td.tix-column-remaining{white-space:nowrap}
 
@@ -2309,9 +2307,7 @@ body:has(.wcu-org-pop[open]){overflow:hidden}
 
 .wcu-mainbar{position:relative}
 
-.wcu-header-search:not(.wp-block-search__searchfield-hidden){position:absolute;top:50%;left:4vw;right:4vw;z-index:20;transform:translateY(-50%)}
-
-.wcu-header-search:not(.wp-block-search__searchfield-hidden){width:auto;height:auto}
+.wcu-header-search:not(.wp-block-search__searchfield-hidden){position:absolute;top:50%;left:4vw;right:4vw;z-index:20;transform:translateY(-50%);width:auto;height:auto}
 
 .wcu-header-search:not(.wp-block-search__searchfield-hidden) .wp-block-search__inside-wrapper{position:static;width:100%;transform:none}}
 
