@@ -44,6 +44,8 @@ The organising team reviewed the site and suggested improvements. See [CREDITS.m
 
 ## Licence
 
+Copyright © 2026 Moses Ssebuwufu.
+
 - Code (`src/`): [GPL-2.0-or-later](LICENSE), the same as WordPress.
 - Documentation (`docs/`, this README): [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
 - Photos, logos, sponsor logos and the WordCamp Uganda pattern artwork are **not** included and are not covered by these licences.
