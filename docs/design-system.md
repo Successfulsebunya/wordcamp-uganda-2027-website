@@ -32,16 +32,16 @@ Rules of thumb:
 | Role | Font | Where it's set |
 | --- | --- | --- |
 | Headings H1, H2 | **Anton** (custom font, weight 400) | Global Styles → Typography → Elements |
-| Main menu | Anton | Additional CSS (navigation section) |
+| Main menu | Anton | Block settings: Navigation block in the header template part |
 | Body text | **Manrope** (theme font, variable 200–800) | Theme default |
 | Buttons | Manrope | Global Styles → Blocks → Button |
 | Code | Fira Code (theme font) | Theme default |
 
 Anton is a tall condensed display face. It's used in capitals for headings and short labels only, never for paragraphs.
 
-## The pattern
+## The pattern artwork
 
-The official WordCamp Uganda pattern, designed by Kasirye Arthur, runs as a thin band in three places:
+The official WordCamp Uganda pattern artwork, a graphic design by Kasirye Arthur, runs as a thin band in three places. It's an image, not a WordPress block pattern:
 
 - under the home page hero ("Pattern edge (hero)")
 - under the page hero on every inner template ("Pattern edge (page hero)")

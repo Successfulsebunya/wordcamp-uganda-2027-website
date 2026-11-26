@@ -12,7 +12,7 @@ To find a component's CSS, search `custom.css` for its class name or its section
 | Ticket button | `wcu-header-cta`, `wcu-ticket-cta` | Ticket-stub button with side notches and perforation. Shine on hover/focus only |
 | Header search | `wcu-header-search` | Core Search block, button-only. When it opens, the menu steps aside and the bar takes its place, so it never pushes the ticket button. On phones the open bar spans the header |
 | Mobile menu | core Navigation overlay | White overlay. The current page is marked with an ink dot (yellow fails contrast on white) |
-| Pattern band | `wcu-pattern-edge` | Thin strip of the official pattern under heroes and above the footer |
+| Pattern band | `wcu-pattern-edge` | Thin strip of the official pattern artwork under heroes and above the footer |
 | Page hero | `wcu-page-hero`, `wcu-crumbs` | Dark hero with breadcrumbs on inner pages. Uses the featured image when there is one |
 
 ## Home page
@@ -45,7 +45,7 @@ These carry the event's "travel" theme. All are decorative: they're hidden from 
 - **Postage stamp:** perforated frame and postmark (The two days, letter cards)
 - **Passport stamp:** tilted stamp (`wcu-btn-badge`)
 - **Boarding pass:** notched stub with perforation
-- **Ticket notch:** side notches on cards that carry the pattern
+- **Ticket notch:** side notches on cards that carry the pattern artwork
 
 ## Icons
 

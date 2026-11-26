@@ -18,7 +18,7 @@ The same description is used for social previews (Open Graph and X cards) when t
 
 - **Title:** includes the dates and venue, so the preview shows them even before anyone clicks.
 - **Front page description:** set in Jetpack settings (`advanced_seo_front_page_description`).
-- **Share image:** `wordcamp-uganda-2027-share.jpg`, 2400×1260 (1.91:1), a photo with the event name, dates, venue and the pattern band at the bottom. It's the home page's featured image, which Jetpack uses for `og:image`.
+- **Share image:** `wordcamp-uganda-2027-share.jpg`, 2400×1260 (1.91:1), a photo with the event name, dates, venue and the pattern artwork band at the bottom. It's the home page's featured image, which Jetpack uses for `og:image`.
 
 ## Keywords
 
