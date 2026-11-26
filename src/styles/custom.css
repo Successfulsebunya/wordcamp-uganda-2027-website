@@ -1,4 +1,4 @@
-/* WordCamp Uganda 2027 — minimal scoped CSS (no !important). Everything else lives in block settings. */
+/* WordCamp Uganda 2027: minimal scoped CSS. Everything else lives in block settings. The only !important rules are on news cards with a photo, to override WordPress preset text colour classes. */
 .wcu-hero-meta figure.wp-block-image{margin:0;line-height:0}
 .wcu-hero-meta figure.wp-block-image img{display:block}
 .wcu-sponsor-logos figure.wp-block-image{margin:0}
@@ -1232,7 +1232,7 @@ body:has(.wcu-org-pop[open]){overflow:hidden}
 #tix #tix-coupon-container{text-align:right}
 #tix #tix-coupon-container::before{content:"Coupon code";display:block;margin-bottom:8px;color:var(--wp--preset--color--muted-dark);font-size:.72rem;font-weight:800;letter-spacing:1.2px;text-transform:uppercase}
 #tix .tix-row-coupon #tix-coupon-input{display:inline-block;vertical-align:middle;width:260px;max-width:100%;min-height:48px;margin:0 8px 0 0;padding:10px 16px;border:1.5px solid var(--wp--preset--color--ink);border-radius:10px;background:#fff;font-size:16px;letter-spacing:.5px;text-transform:uppercase}
-#tix .tix-row-coupon input[name="tix_coupon_submit"]{display:inline-block;vertical-align:middle;min-height:48px;margin:0;padding:0 22px;border:0;border-radius:10px;background:var(--wp--preset--color--ink);color:#fff;font-family:var(--wp--preset--font-family--inter);font-size:13px;font-weight:700;letter-spacing:.6px;text-transform:uppercase;cursor:pointer}
+#tix .tix-row-coupon input[name="tix_coupon_submit"]{display:inline-block;vertical-align:middle;min-height:48px;margin:0;padding:0 22px;border:0;border-radius:10px;background:var(--wp--preset--color--ink);color:#fff;font-family:inherit;font-size:13px;font-weight:700;letter-spacing:.6px;text-transform:uppercase;cursor:pointer}
 #tix .tix-row-coupon input[name="tix_coupon_submit"]:hover{background:#2A2B30}
 /* Small screens */
 @media (max-width:768px){
