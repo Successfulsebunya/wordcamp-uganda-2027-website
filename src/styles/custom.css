@@ -179,7 +179,7 @@ body.single-wcb_organizer .wcu-org-cta{display:none}
 
 .contact-form .grunion-field-wrap{margin-bottom:18px}
 
-.contact-form button.pushbutton-wide{width:auto;display:inline-flex;align-items:center;gap:8px;margin-top:8px;padding:15px 30px;border:0;border-radius:100px;background:var(--wp--preset--color--uganda-red-text);color:var(--wp--preset--color--white);font-family:var(--wp--preset--font-family--manrope);font-size:1rem;font-weight:800;cursor:pointer;transition:background .25s ease}
+.contact-form button.pushbutton-wide{width:auto;display:inline-flex;align-items:center;gap:8px;margin-top:8px;padding:15px 30px;border:0;border-radius:100px;background:var(--wp--preset--color--uganda-red-text);color:var(--wp--preset--color--white);font-family:inherit;font-size:1rem;font-weight:800;cursor:pointer;transition:background .25s ease}
 
 .contact-form button.pushbutton-wide:hover,.contact-form button.pushbutton-wide:focus-visible{background:var(--wp--preset--color--ink)}
 
@@ -270,7 +270,7 @@ body.single-wcb_organizer .wcu-org-cta{display:none}
 
 .contact-form .contact-form__select-wrapper:focus-within{outline:2px solid var(--wp--preset--color--ink);outline-offset:2px}
 
-.contact-form .wp-block-jetpack-button .wp-block-button__link{padding:15px 30px;border-radius:100px;background:var(--wp--preset--color--uganda-red-text);color:var(--wp--preset--color--white);font-family:var(--wp--preset--font-family--manrope);font-weight:800}
+.contact-form .wp-block-jetpack-button .wp-block-button__link{padding:15px 30px;border-radius:100px;background:var(--wp--preset--color--uganda-red-text);color:var(--wp--preset--color--white);font-family:inherit;font-weight:800}
 
 .contact-form .wp-block-jetpack-button .wp-block-button__link:hover,.contact-form .wp-block-jetpack-button .wp-block-button__link:focus-visible{background:var(--wp--preset--color--ink)}
 
@@ -483,7 +483,7 @@ body .contact-form .grunion-field-phone-wrap .jetpack-field__input-prefix{paddin
 .contact-form fieldset legend{padding:0;margin-bottom:10px}
 
 /* ===== Forms: shared polish (Jetpack) ===== */
-.contact-form .grunion-field-label,.contact-form legend{font-family:var(--wp--preset--font-family--manrope);font-weight:800;color:var(--wp--preset--color--ink);margin-bottom:8px}
+.contact-form .grunion-field-label,.contact-form legend{font-family:inherit;font-weight:800;color:var(--wp--preset--color--ink);margin-bottom:8px}
 
 .contact-form .grunion-label-required{margin-left:4px;color:var(--wp--preset--color--uganda-red-text);font-weight:700}
 
@@ -508,7 +508,7 @@ body .contact-form .grunion-field-phone-wrap .jetpack-field__input-prefix{paddin
 /* ===== CampTix: tickets ===== */
 #tix,#tix *{box-sizing:border-box}
 
-#tix{padding-top:0;font-family:var(--wp--preset--font-family--manrope);color:var(--wp--preset--color--ink)}
+#tix{padding-top:0;font-family:inherit;color:var(--wp--preset--color--ink)}
 
 #tix form{overflow:visible}
 
@@ -538,7 +538,7 @@ body .contact-form .grunion-field-phone-wrap .jetpack-field__input-prefix{paddin
 
 #tix .tix-attendee-form input[type="text"],#tix .tix-attendee-form input[type="email"],#tix .tix-attendee-form input[type="url"],#tix .tix-attendee-form textarea{width:100%}
 
-#tix input[type="submit"],#tix .tix-submit .tix-checkout-button,#tix button[type="submit"]{display:inline-flex;align-items:center;gap:8px;padding:15px 30px;border:0;border-radius:100px;background:var(--wp--preset--color--uganda-red-text);color:var(--wp--preset--color--white);font-family:var(--wp--preset--font-family--manrope);font-size:1rem;font-weight:800;line-height:1;white-space:nowrap;cursor:pointer;box-shadow:none;transition:background .25s ease,transform .25s ease}
+#tix input[type="submit"],#tix .tix-submit .tix-checkout-button,#tix button[type="submit"]{display:inline-flex;align-items:center;gap:8px;padding:15px 30px;border:0;border-radius:100px;background:var(--wp--preset--color--uganda-red-text);color:var(--wp--preset--color--white);font-family:inherit;font-size:1rem;font-weight:800;line-height:1;white-space:nowrap;cursor:pointer;box-shadow:none;transition:background .25s ease,transform .25s ease}
 
 #tix input[type="submit"]:hover,#tix input[type="submit"]:focus-visible,#tix .tix-checkout-button:hover,#tix button[type="submit"]:hover{background:var(--wp--preset--color--ink);transform:translateY(-2px)}
 
@@ -550,7 +550,7 @@ body .contact-form .grunion-field-phone-wrap .jetpack-field__input-prefix{paddin
 
 #tix .tix-row-coupon input[type="submit"]{padding:12px 20px;background:var(--wp--preset--color--ink);box-shadow:none}
 
-#tix .tix-has-dynamic-receipts h2,#tix h2{margin:32px 0 16px;font-family:var(--wp--preset--font-family--anton);font-size:clamp(1.5rem,3vw,2rem);font-weight:400;text-transform:uppercase;color:var(--wp--preset--color--ink)}
+#tix .tix-has-dynamic-receipts h2,#tix h2{margin:32px 0 16px;font-size:clamp(1.5rem,3vw,2rem);font-weight:400;text-transform:uppercase;color:var(--wp--preset--color--ink)}
 
 #tix .tix-order-summary td,#tix .tix-order-summary th{padding:14px 20px}
 
@@ -633,7 +633,7 @@ body #tix-attendees .avatar{width:96px;height:96px;margin:0 0 10px;padding:4px;b
 
 body #tix-attendees .tix-field{display:block;margin:0;overflow-wrap:anywhere}
 
-body #tix-attendees .tix-attendee-name{font-family:var(--wp--preset--font-family--manrope);font-size:1.1rem;font-weight:800;line-height:1.25;color:var(--wp--preset--color--ink)}
+body #tix-attendees .tix-attendee-name{font-family:inherit;font-size:1.1rem;font-weight:800;line-height:1.25;color:var(--wp--preset--color--ink)}
 
 body #tix-attendees a.tix-field{color:var(--wp--preset--color--muted-dark);font-size:.9rem;font-weight:600;text-decoration:none}
 
