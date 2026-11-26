@@ -38,6 +38,21 @@ The files in `src/` are exports of the live site. After a change on the site:
 2. For Global Styles, copy Additional CSS into `src/styles/custom.css`. Update `global-styles.json` if the palette, fonts or element styles changed.
 3. Commit on a branch with a clear message, open a pull request and merge it.
 
+## Checking the CSS
+
+The CSS follows the [WordPress CSS coding standards](https://developer.wordpress.org/coding-standards/wordpress-coding-standards/css/), checked with the official `@wordpress/stylelint-config`.
+
+```bash
+npm install
+npm run lint:css        # check
+npm run lint:css:fix    # fix formatting automatically
+```
+
+The config (`.stylelintrc.json`) changes three rules:
+
+- `selector-class-pattern` is off, because the CSS has to target WordPress core and plugin class names such as `wp-block-button__link`, which don't follow the lowercase-hyphen pattern.
+- `no-descending-specificity` and `no-duplicate-selectors` are warnings. The remaining cases are a selector that also appears inside a longer selector group. Reordering them would change which rule wins, so they're left as they are.
+
 ## Commit messages
 
 This repository uses [Conventional Commits](https://www.conventionalcommits.org/):
